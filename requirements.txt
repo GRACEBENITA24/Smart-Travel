@@ -4,7 +4,7 @@ SpeechRecognition
 gTTS
 langdetect
 googletrans==4.0.0rc1
-torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+torch==2.5.1
 ftfy
 regex
 tqdm
@@ -12,4 +12,3 @@ opencv-python-headless
 Pillow
 wikipedia
 pandas
-
