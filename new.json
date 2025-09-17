@@ -1,0 +1,885 @@
+[
+  {
+    "state": "Andhra Pradesh",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "AP Taxi", "app_link": "https://aptourism.gov.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Red Cross", "app_link": "https://indianredcross.org/"},
+      {"app_name": "Andhra Pradesh Police", "app_link": "https://citizen.appolice.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "AP Tourism", "app_link": "https://aptourism.gov.in/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Pulihora", "Gutti Vankaya Curry", "Pootharekulu"],
+    "special_features": ["Amaravati Cultural Tours", "Kondapalli Toys"]
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Arunachal Police", "app_link": "https://arunpol.nic.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Arunachal Tourism", "app_link": "https://arunachaltourism.com/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Thukpa", "Taba Soup", "Apong"],
+    "special_features": ["Tawang Monastery Tours", "Living Root Bridges"]
+  },
+  {
+    "state": "Assam",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Assam Taxi", "app_link": "https://www.assamtourism.gov.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Assam Police", "app_link": "https://police.assam.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Assam Tourism", "app_link": "https://www.assamtourism.gov.in/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Assam Laksa", "Pitha", "Duck Curry"],
+    "special_features": ["Kaziranga National Park Safari"]
+  },
+  {
+    "state": "Bihar",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Bihar Taxi", "app_link": "https://state.bihar.gov.in/tourism/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Bihar Police", "app_link": "https://biharpolice.bih.nic.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Bihar Tourism", "app_link": "https://state.bihar.gov.in/tourism/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Litti Chokha", "Sattu Paratha", "Khaja"],
+    "special_features": ["Bodh Gaya Pilgrimage Tours"]
+  },
+  {
+    "state": "Chhattisgarh",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "CG Taxi", "app_link": "https://tourism.cgstate.gov.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Chhattisgarh Police", "app_link": "https://www.cgpolice.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Chhattisgarh Tourism", "app_link": "https://tourism.cgstate.gov.in/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Chana Samosa", "Faraa", "Bafauri"],
+    "special_features": ["Chitrakoot Waterfalls", "Bastar Dussehra Festival"]
+  },
+  {
+    "state": "Goa",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Goa Taxi Service", "app_link": "https://goa-tourism.com/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Goa Police", "app_link": "https://citizen.goapolice.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Goa Tourism", "app_link": "https://goa-tourism.com/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Goan Fish Curry", "Prawn Balchao", "Bebinca"],
+    "special_features": ["Beach Tours", "Goa Carnival"]
+  },
+  {
+    "state": "Gujarat",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Gujarat Taxi", "app_link": "https://www.gujarattourism.com/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Gujarat Police", "app_link": "https://police.gujarat.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Gujarat Tourism", "app_link": "https://www.gujarattourism.com/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Dhokla", "Khandvi", "Undhiyu"],
+    "special_features": ["Rann Utsav", "Gir National Park Safari"]
+  },
+  {
+    "state": "Haryana",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Haryana Taxi", "app_link": "https://haryanatourism.gov.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Haryana Police", "app_link": "https://haryanapolice.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Haryana Tourism", "app_link": "https://haryanatourism.gov.in/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Bajra Khichdi", "Kachri ki Sabzi", "Hara Dhania Cholia"],
+    "special_features": ["Surajkund Crafts Mela"]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "HP Taxi Service", "app_link": "https://himachaltourism.gov.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "HP Police", "app_link": "https://hpspp.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Himachal Tourism", "app_link": "https://himachaltourism.gov.in/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Siddu", "Madra", "Babru"],
+    "special_features": ["Kullu Dussehra", "Shimla Toy Train"]
+  },
+  {
+    "state": "Jharkhand",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Jharkhand Police", "app_link": "https://jhpolice.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Jharkhand Tourism", "app_link": "https://tourism.jharkhand.gov.in/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Thekua", "Chhilka Roti", "Litti Chokha"],
+    "special_features": ["Deo Surya Mandir", "Betla National Park"]
+  },
+  {
+    "state": "Karnataka",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Namma Yatri", "app_link": "https://nammayatri.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Karnataka Police", "app_link": "https://ksp.karnataka.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Karnataka Tourism", "app_link": "https://karnatakatourism.org/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Bisi Bele Bath", "Mysore Pak", "Ragi Mudde"],
+    "special_features": ["Hampi Heritage Site", "Mysuru Dasara"]
+  },
+  {
+    "state": "Kerala",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Kerala Taxi", "app_link": "https://www.keralatourism.org/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Kerala Police", "app_link": "https://keralapolice.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Kerala Tourism", "app_link": "https://www.keralatourism.org/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Appam with Stew", "Puttu and Kadala Curry", "Sadya"],
+    "special_features": ["Backwater Houseboats", "Ayurveda Tourism"]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "MP Taxi", "app_link": "https://www.mptourism.com/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "MP Police", "app_link": "https://mppolice.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "MP Tourism", "app_link": "https://www.mptourism.com/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Bhutte ka Kees", "Poha", "Dal Bafla"],
+    "special_features": ["Khajuraho Temples", "Kanha National Park Safari"]
+  },
+  {
+    "state": "Maharashtra",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Meru Taxi", "app_link": "https://www.meru.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Maharashtra Police", "app_link": "https://www.mahapolice.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Maharashtra Tourism", "app_link": "https://www.maharashtratourism.gov.in/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Vada Pav", "Pav Bhaji", "Modak"],
+    "special_features": ["Gateway of India Tours", "Ajanta-Ellora Caves"]
+  },
+  {
+    "state": "Manipur",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Manipur Taxi", "app_link": "https://manipurtourism.gov.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Manipur Police", "app_link": "https://manipurpolice.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Manipur Tourism", "app_link": "https://manipurtourism.gov.in/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Eromba", "Singju", "Nga Thongba"],
+    "special_features": ["Loktak Lake Tours", "Manipuri Dance Festivals"]
+  },
+  {
+    "state": "Meghalaya",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Meghalaya Taxi", "app_link": "https://megtourism.gov.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Meghalaya Police", "app_link": "https://megpolice.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Meghalaya Tourism", "app_link": "https://megtourism.gov.in/"},
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Jadoh", "Dohneiiong", "Tungrymbai"],
+    "special_features": ["Living Root Bridges", "Cherrapunji Waterfalls"]
+  },
+  {
+    "state": "Mizoram",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Mizoram Taxi", "app_link": "https://tourism.mizoram.gov.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Mizoram Police", "app_link": "https://police.mizoram.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Mizoram Tourism", "app_link": "https://tourism.mizoram.gov.in/" },
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Bai", "Vawksa Rep", "Sawhchiar"],
+    "special_features": ["Aizawl City Tours", "Pala Lake Visits"]
+  },
+  {
+    "state": "Nagaland",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Nagaland Taxi", "app_link": "https://tourism.nagaland.gov.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Nagaland Police", "app_link": "https://police.nagaland.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Nagaland Tourism", "app_link": "https://tourism.nagaland.gov.in/" },
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Smoked Pork", "Axone", "Zutho"],
+    "special_features": ["Hornbill Festival", "Khonoma Village Tours"]
+  },
+  {
+    "state": "Odisha",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"},
+      {"app_name": "Odisha Taxi", "app_link": "https://odishatourism.gov.in/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Odisha Police", "app_link": "https://odishapolice.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Odisha Tourism", "app_link": "https://odishatourism.gov.in/" },
+      {"app_name": "Incredible India", "app_link": "https://www.incredibleindia.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Dalma", "Pakhala Bhata", "Rasgulla Odisha Style"],
+    "special_features": ["Konark Sun Temple Tours", "Chilika Lake Visits"]
+  },
+  {
+    "state": "Punjab",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Punjab Police App", "app_link": "https://play.google.com/store/apps/details?id=com.punjabpolice.psapp"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Punjab Tourism", "app_link": "https://punjabtourism.punjab.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Makki di Roti & Sarson da Saag", "Amritsari Kulcha"],
+    "special_features": ["Golden Temple in Amritsar", "Wagah Border Ceremony"]
+  },
+  {
+    "state": "Rajasthan",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "FabHotels", "app_link": "https://www.fabhotels.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Rajasthan Police Citizen App", "app_link": "https://play.google.com/store/apps/details?id=com.citizen.rajpolice"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Rajasthan Tourism", "app_link": "https://tourism.rajasthan.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Dal Baati Churma", "Gatte ki Sabzi"],
+    "special_features": ["Jaipur Pink City", "Thar Desert Safari"]
+  },
+  {
+    "state": "Sikkim",
+    "taxi_apps": [
+      {"app_name": "Ola (limited)", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Rapido", "app_link": "https://rapido.bike/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Sikkim Police App", "app_link": "https://play.google.com/store/apps/details?id=com.sikkimpolice.app"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Sikkim Tourism", "app_link": "https://www.sikkimtourism.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Local Apps", "app_link": "https://play.google.com/"}
+    ],
+    "famous_foods": ["Momo", "Thukpa", "Phagshapa"],
+    "special_features": ["Tsomgo Lake", "Kanchenjunga National Park"]
+  },
+  {
+    "state": "Tamil Nadu",
+    "taxi_apps": [
+      {"app_name": "Namma Yatri", "app_link": "https://nammayatri.in/"},
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"},
+      {"app_name": "Kavalan SOS", "app_link": "https://play.google.com/store/apps/details?id=com.kavalan.main"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Tamil Nadu Tourism", "app_link": "https://www.tamilnadutourism.tn.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"},
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"}
+    ],
+    "famous_foods": ["Idli", "Dosa", "Chettinad Chicken"],
+    "special_features": ["Meenakshi Amman Temple", "Marina Beach", "Nilgiri Hills"]
+  },
+  {
+    "state": "Telangana",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "FabHotels", "app_link": "https://www.fabhotels.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "Hawk Eye (Telangana Police)", "app_link": "https://play.google.com/store/apps/details?id=com.cordys.telpolice"},
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Telangana Tourism", "app_link": "https://telanganatourism.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Hyderabadi Biryani", "Haleem"],
+    "special_features": ["Charminar", "Golconda Fort", "Ramoji Film City"]
+  },
+  {
+    "state": "Tripura",
+    "taxi_apps": [
+      {"app_name": "Rapido", "app_link": "https://rapido.bike/"},
+      {"app_name": "Ola (limited)", "app_link": "https://www.olacabs.com/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Tripura Tourism", "app_link": "https://tripuratourism.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"}
+    ],
+    "famous_foods": ["Mui Borok (fermented fish curry)", "Chakwi"],
+    "special_features": ["Ujjayanta Palace", "Neermahal Palace"]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/in/en/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "UPCOP App", "app_link": "https://play.google.com/store/apps/details?id=com.up.cop"},
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Uttar Pradesh Tourism", "app_link": "https://uptourism.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"},
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"}
+    ],
+    "famous_foods": ["Tunday Kababi", "Bedhai", "Petha"],
+    "special_features": ["Taj Mahal", "Varanasi Ghats", "Lucknow Heritage"]
+  },
+  {
+    "state": "Uttarakhand",
+    "taxi_apps": [
+      {"app_name": "Ola (limited)", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber (limited)", "app_link": "https://www.uber.com/in/en/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "Devbhoomi Police", "app_link": "https://play.google.com/store/apps/details?id=com.devbhoomi.police"},
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Uttarakhand Tourism", "app_link": "https://uttarakhandtourism.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Aloo Ke Gutke", "Kafuli", "Bal Mithai"],
+    "special_features": ["Char Dham Yatra", "Nanda Devi National Park", "Rishikesh Adventure Sports"]
+  },
+  {
+    "state": "West Bengal",
+    "taxi_apps": [
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "Goibibo", "app_link": "https://www.goibibo.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "Bandhu (WB Police)", "app_link": "https://play.google.com/store/apps/details?id=com.nic.bandhu"},
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "West Bengal Tourism", "app_link": "https://wbtourism.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"},
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"}
+    ],
+    "famous_foods": ["Rosogolla", "Macher Jhol", "Sandesh"],
+    "special_features": ["Sundarbans", "Victoria Memorial", "Darjeeling Tea Gardens"]
+  },
+  {
+    "state": "Andaman and Nicobar Islands",
+    "taxi_apps": [
+      {"app_name": "Local Taxi Services", "app_link": "https://play.google.com"},
+      {"app_name": "Rapido", "app_link": "https://rapido.bike/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Andaman Tourism", "app_link": "https://www.andamantourism.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"}
+    ],
+    "famous_foods": ["Seafood Curry", "Lobster Dishes"],
+    "special_features": ["Cellular Jail", "Radhanagar Beach", "Scuba Diving"]
+  },
+  {
+    "state": "Chandigarh",
+    "taxi_apps": [
+      {"app_name": "Uber", "app_link": "https://www.uber.com/"},
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "FabHotels", "app_link": "https://www.fabhotels.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "Chandigarh Police App", "app_link": "https://play.google.com/store/apps/details?id=com.chdpolice.app"},
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Chandigarh Tourism", "app_link": "https://chandigarhtourism.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"},
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"}
+    ],
+    "famous_foods": ["Butter Chicken", "Chole Bhature"],
+    "special_features": ["Rock Garden", "Sukhna Lake", "Capitol Complex"]
+  },
+  {
+    "state": "Delhi (NCT)",
+    "taxi_apps": [
+      {"app_name": "Uber", "app_link": "https://www.uber.com/"},
+      {"app_name": "Ola", "app_link": "https://www.olacabs.com/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "Delhi Police One Touch", "app_link": "https://play.google.com/store/apps/details?id=com.delhipolice.app"},
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Delhi Tourism", "app_link": "https://delhitourism.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"},
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"}
+    ],
+    "famous_foods": ["Chole Kulche", "Paranthas from Chandni Chowk", "Butter Chicken"],
+    "special_features": ["Red Fort", "India Gate", "Lotus Temple"]
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "taxi_apps": [
+      {"app_name": "Local Taxi Apps", "app_link": "https://play.google.com"},
+      {"app_name": "Rapido", "app_link": "https://rapido.bike/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"},
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "J&K Police App", "app_link": "https://play.google.com/store/apps/details?id=com.jkpolice.app"},
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "J&K Tourism", "app_link": "https://www.jktourism.org/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"}
+    ],
+    "famous_foods": ["Rogan Josh", "Gushtaba", "Kahwa"],
+    "special_features": ["Dal Lake", "Gulmarg", "Vaishno Devi"]
+  },
+  {
+    "state": "Ladakh",
+    "taxi_apps": [
+      {"app_name": "Local Taxi Apps", "app_link": "https://play.google.com"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Ladakh Tourism", "app_link": "https://ladakhtourism.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"}
+    ],
+    "famous_foods": ["Thukpa", "Skyu"],
+    "special_features": ["Pangong Lake", "Magnetic Hill", "Nubra Valley"]
+  },
+  {
+    "state": "Lakshadweep",
+    "taxi_apps": [
+      {"app_name": "Local Boat & Taxi Services", "app_link": "https://www.lakshadweeptourism.com/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "Lakshadweep Tourism Hotels", "app_link": "https://www.lakshadweeptourism.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Lakshadweep Tourism", "app_link": "https://www.lakshadweeptourism.com/"}
+    ],
+    "food_apps": [
+      {"app_name": "Local Seafood Apps", "app_link": "https://play.google.com"}
+    ],
+    "famous_foods": ["Tuna Curry", "Coconut-based Dishes"],
+    "special_features": ["Agatti Island", "Bangaram Island", "Scuba Diving"]
+  },
+  {
+    "state": "Puducherry",
+    "taxi_apps": [
+      {"app_name": "Namma Yatri", "app_link": "https://nammayatri.in/"},
+      {"app_name": "Uber", "app_link": "https://www.uber.com/"}
+    ],
+    "hotel_apps": [
+      {"app_name": "OYO", "app_link": "https://www.oyorooms.com/"},
+      {"app_name": "MakeMyTrip", "app_link": "https://www.makemytrip.com/"}
+    ],
+    "emergency_apps": [
+      {"app_name": "112 India", "app_link": "https://112.gov.in/"}
+    ],
+    "tourism_apps": [
+      {"app_name": "Puducherry Tourism", "app_link": "https://tourism.py.gov.in/"}
+    ],
+    "food_apps": [
+      {"app_name": "Swiggy", "app_link": "https://www.swiggy.com/"},
+      {"app_name": "Zomato", "app_link": "https://www.zomato.com/"}
+    ],
+    "famous_foods": ["French Baguette", "Seafood Curries"],
+    "special_features": ["Auroville", "French Colony", "Promenade Beach"]
+  }
+]
