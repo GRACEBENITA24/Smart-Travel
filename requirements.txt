@@ -3,7 +3,7 @@ google-generativeai
 SpeechRecognition
 gTTS
 langdetect
-googletrans==4.0.0rc1
+googletrans==4.0.0-rc1
 torch==2.5.1
 ftfy
 regex
