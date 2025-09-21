@@ -1,0 +1,176 @@
+name,lat,lng,crime_type,notes,risk_level
+Chor Bazaar (Grant Road),18.9576,72.8264,Theft/Fencing,Historic 'thieves' market in Mumbai; informal second-hand trade.,2
+Kamathipura,18.9618,72.8258,Red-light/Trafficking,One of Asia's oldest red-light districts in Mumbai.,5
+Dharavi,19.0414,72.8567,Illegal trade/Organized crime,Large slum with informal industries; reported organized informal economy.,4
+Crawford Market area (Mumbai),18.9526,72.833,Theft/Scams,Busy wholesale market; petty theft & frauds reported.,3
+Colaba Causeway (Mumbai),18.922,72.8305,Pickpocketing,Tourist market with frequent pickpocket incidents.,2
+Kamla Market (New Delhi),28.6465,77.225,Pickpocketing/Scams,Bazaar near Connaught Place with petty theft reports.,1
+Chandni Chowk (Old Delhi),28.6562,77.2303,Pickpocketing/Theft,Very high tourist footfall; pickpocketing and chain-snatch reports.,2
+G.B. Road (Garstin Bastion Road),28.6578,77.2306,Red-light/Trafficking,Delhi's large red-light street.,1
+Chotta Bazar / Farsh Bazaar (Old Delhi),28.6541,77.2311,Robbery/Scams,Market area with occasional reported robberies.,2
+Karol Bagh electronics markets,28.6538,77.199,Theft/Scams,Electronics shops and grey-market trade.,2
+Nizamuddin Basti (Old Delhi),28.5806,77.253,Theft/Robbery,High density residential lanes with occasional reported robberies.,3
+Azadpur Mandi area (Delhi),28.7439,77.1855,Smuggling/Illegal trade,Large wholesale market with informal activity.,4
+Paharganj (New Delhi),28.6505,77.2216,Theft/Drug deals,Backpacker area with petty crime & drug deals.,1
+Lajpat Nagar market (Delhi),28.5684,77.2446,Pickpocketing,Busy shopping area with petty theft reports.,5
+Kamla Nagar,28.6866,77.2071,Theft/Scams,College area with pickpocket reports.,3
+Tibetan Market,28.6129,77.209,Pickpocketing,Small tourist market.,2
+Old Rajinder Nagar area,28.668,77.1892,Theft,Busy residential/commercial mix with occasional robberies.,1
+Gariahat market (Kolkata),22.5172,88.3738,Pickpocketing/Scams,Busy market in South Kolkata.,5
+Sonagachi (Kolkata),22.5869,88.3521,Red-light/Trafficking,Asia's largest red-light district.,1
+Esplanade (Kolkata),22.5726,88.3639,Pickpocketing,"High footfall, tourist thefts reported.",1
+Howrah Station vicinity,22.5992,88.329,Theft/Robbery,Transport hub with petty crime.,1
+Park Street (Kolkata),22.541,88.3566,Night robberies,Entertainment strip with occasional robberies.,3
+Burrabazar wholesale markets,22.6228,88.3632,Theft/Fencing,Large wholesale trade & informal activity.,3
+Bidhan Sarani area,22.6094,88.3716,Drug trade,Local drug activity reported.,4
+Gariahat Sarani lanes,22.5173,88.3712,Pickpocketing,Busy shopping lanes.,1
+College Street (Kolkata),22.5721,88.3597,Theft,Book market with petty theft incidents.,3
+Tollygunge markets,22.5015,88.3566,Theft,Local market petty theft.,2
+New Market (Kolkata),22.5448,88.347,Pickpocketing,Historic market & tourist spot.,2
+Ballygunge Circular Road,22.5349,88.3722,Robbery,Upscale area but with reported robberies at times.,4
+Park Circus bazaar,22.5336,88.3648,Scams/Robbery,Marketplace area with incidents.,5
+Gopalapuram (Chennai),13.0575,80.2566,Pickpocketing,Upmarket area but with purse thefts.,1
+T. Nagar (Chennai),13.0416,80.2356,Pickpocketing/Scams,Major shopping district; petty theft common.,5
+"Parry's Corner (George Town, Chennai)",13.0866,80.287,Scams/Robbery,Commercial hub with theft reports.,2
+Royapettah (Chennai),13.0627,80.2676,Theft,Busy roads and markets.,5
+Gopalapuram Jewelry market,13.0549,80.2504,Theft/Scams,Jewelry shop scams reported.,5
+Chintadripet (Chennai),13.0598,80.2709,Theft,Residential lanes with occasional robberies.,5
+Tondiarpet,13.1113,80.2975,Organized petty crime,Port-adjacent economy.,2
+Park Town (Chennai),13.0827,80.2714,Theft,Transit hub with petty crime.,4
+Colony markets (Chennai periphery),13.0,80.2,Theft,Local markets.,3
+MG Road (Bengaluru),12.9754,77.6068,Pickpocketing/Scams,Major commercial road with tourist thefts.,4
+Majestic / Kempegowda Bus Station,12.9762,77.571,Pickpocketing/Robbery,Transport hub with petty crime.,5
+KR Market (Bengaluru),12.9689,77.5738,Theft/Illegal trade,Large wholesale market.,3
+Jayanagar shopping streets,12.925,77.5836,Pickpocketing,Busy shopping lanes.,4
+Koramangala nightlife lanes,12.9346,77.6198,Drug deals/Scams,Nightlife incidents reported.,5
+Whitefield outskirts (logistics zones),12.9719,77.749,Illegal trade/Smuggling,Industrial/logistics use.,5
+Majestic area (again),12.9762,77.571,Pickpocketing,Duplication for emphasis.,1
+Brigade Road (Bengaluru),12.9718,77.5968,Pickpocketing,Commercial road theft reports.,1
+Frazer Town (Bengaluru),12.9759,77.6186,Theft,Residential/commercial mix.,1
+Whitefield Market area,12.969,77.745,Theft,Local market petty crime.,2
+Chamarajpet markets,12.9637,77.5644,Theft,Old markets with petty theft.,2
+Hosur Road outskirts,12.9018,77.5938,Smuggling/Illegal trade,Transit routes with informal movement.,5
+Secunderabad (Hyderabad twin city),17.451,78.4867,Pickpocketing/Scams,Busy transport and market areas.,3
+Begum Bazar (Hyderabad),17.3812,78.4846,Theft/Illegal resale,Wholesale markets with informal trade.,5
+Charminar area,17.3616,78.4747,Pickpocketing/Robbery,Historic dense market with petty theft.,5
+Laad Bazaar (Hyderabad),17.3606,78.4734,Pickpocketing,Jewelry & bangles market with theft.,1
+Monda Market / Koti,17.3998,78.485,Theft,Wholesale & retail markets.,3
+Tolichowki nightlife zones,17.398,78.39,Drug deals,Restaurants/nightlife incidents.,2
+Saddar (Hyderabad historic),17.3833,78.47,Theft/Organized crime,Old city with informal economy.,1
+Secunderabad Cantonment lanes,17.452,78.502,Theft,Transport hub petty crime.,1
+Peddamma Temple area,17.4134,78.4373,Pickpocketing,Temple crowds; petty thefts.,4
+Lower Parel (Mumbai),19.0,72.827,Drug deals/Night crimes,Nightlife incidents.,3
+Parel slum pockets,19.0001,72.82,Organized petty crime,Informal economies.,2
+Sion/Kurla local markets,19.055,72.879,Theft,Busy market hubs.,2
+Vashi (Navi Mumbai),19.0778,73.012,Pickpocketing,Station area petty crime.,5
+Thane bazaars,19.2183,72.9781,Theft/Robbery,Transit & market thefts.,3
+Pune Laxmi Road & Tulsi Baug,18.5204,73.8567,Pickpocketing/Scams,Popular shopping lanes.,3
+Koregaon Park nightlife strips,18.5392,73.9099,Drug deals/Night incidents,Nightlife area incidents.,3
+MG Road (Pune),18.5159,73.8569,Pickpocketing,Shopping street petty crime.,5
+Camp Market (Pune),18.5334,73.8415,Theft,Military/college markets with thefts.,4
+Aundh market lanes,18.5535,73.8386,Scams,Local market reports.,5
+Loni / Jansath stretch (Ghaziabad-border),28.6692,77.4497,Smuggling/Organized theft,Periurban informal flows.,5
+Noida Sector markets (Noida),28.5355,77.391,Pickpocketing,Market areas with petty crime.,3
+Sector 18 market (Noida),28.5704,77.3251,Theft,Busy commercial hub.,5
+Old Faridabad markets,28.4089,77.3178,Pickpocketing,Local markets petty crime.,5
+Ballabgarh market (Faridabad),28.3636,77.32,Theft,Wholesale market thefts.,1
+Saket (Select Citywalk) vicinity,28.5313,77.2101,Scams,High-end mall area but reported thefts.,4
+Uttam Nagar market lanes,28.636,77.0752,Theft,Residential market petty crime.,1
+Janpath (Delhi),28.6197,77.206,Pickpocketing,Backpacker/tourist market.,2
+Anaj Mandi (various cities),28.7405,77.167,Illegal trade,Large wholesale markets often used in informal circuits.,3
+Agra Kinari Bazaar / Sadar,27.1767,78.0081,Pickpocketing/Tourist scams,High tourist zones with petty crime.,5
+Fatehpur Sikri outskirts (tourist area),27.0933,77.6608,Theft,Tourist petty theft.,4
+Mathura local lanes (market areas),27.4924,77.6737,Theft,Market zones.,2
+Vrindavan bazaar areas,27.571,77.6905,Scams,Temple town scams & touting.,1
+Aligarh busy markets,27.882,78.088,Pickpocketing,Market petty crime.,5
+Meerut lower markets,28.9845,77.7064,Theft,Local market thefts.,5
+Ghaziabad old city lanes,28.6692,77.4538,Robbery,Commercial/residential mixed incidents.,4
+Kanpur Phool Bagh & markets,26.4499,80.3319,Theft/Burglary,Busy markets.,1
+Bhatinda markets (Punjab),30.211,74.9455,Theft,Local market petty crime.,3
+Amritsar Hall Bazaar & old city,31.6339,74.8723,Scams/Robbery,Temple area scams & robberies.,4
+Golden Temple periphery (Amritsar),31.62,74.8765,Pickpocketing,High footfall tourist thefts.,5
+Ludhiana Chaura Bazaar,30.9,75.8573,Theft/Burglary,Large market theft reports.,3
+Jalandhar local markets,31.326,75.5762,Pickpocketing,Market petty crime.,4
+Patiala bazaars,30.3398,76.3869,Theft,Local market incidents.,2
+Pathankot transit markets,32.2658,75.642,Smuggling,Border transit informal trade.,2
+Bathinda outskirts (border routes),30.211,74.9455,Illegal trade,Transit routes.,4
+Hoshiarpur market lanes,31.532,75.9114,Theft,Local market petty crime.,1
+Sangrur market nodes,30.2456,75.8395,Theft,Regional market incidents.,4
+Jammu Tawi bazaars,32.737,74.8642,Theft/Robbery,Transit and tourist thefts.,4
+Srinagar Lal Chowk area,34.0898,74.802,Robbery/Violence,Conflict-affected region.,3
+Anantnag market zones,33.7315,75.1494,Theft,Local market petty crime.,3
+Baramulla transit zones,34.2035,74.3637,Smuggling,Border/proximity to LoC informal flows.,5
+Kupwara markets,34.5194,74.2611,Smuggling,Border area informal movement.,3
+Poonch town (border),33.7746,74.0786,Smuggling/Illegal arms,Border transit reports.,2
+Rajouri old markets,33.375,74.3268,Violence/Robbery,Conflict impacted area.,5
+Udhampur transit markets,32.9322,75.132,Theft,Transit petty crime.,5
+Jammu (bazaars),32.7271,74.857,Pickpocketing,Market petty crime.,4
+Shimla Mall Road,31.1048,77.1734,Pickpocketing/Tourist thefts,Popular tourist strip petty crime.,1
+Kangra bazaars,32.1059,76.2711,Theft,Market petty crime.,2
+Dharamshala McLeod Ganj lanes,32.2432,76.321,Scams/Touting,Tourist touts and petty scams.,1
+Solan markets,30.9099,77.1093,Theft,Local market incidents.,3
+Bilaspur (HP) markets,31.2035,76.9644,Theft,Regional market petty crime.,5
+Chandigarh sector markets (sector 17),30.7333,76.7794,Pickpocketing,Busy commercial hub.,5
+Mohali industrial areas,30.7046,76.7179,Illegal trade,Logistics/industry informal flows.,3
+Panchkula markets,30.694,76.855,Theft,Local market incidents.,3
+Ambala Cantt markets,30.3782,76.7767,Theft,Transit/timely petty crimes.,3
+Rohtak market lanes,28.8955,76.6066,Theft,Market petty crime.,5
+Hisar old city markets,29.1492,75.7217,Theft,Local market incidents.,2
+Sonipat market nodes,28.9941,77.0141,Pickpocketing,Local market petty crime.,4
+Panipat industrial belts,29.3909,76.9635,Illegal trade/Smuggling,Transit/industrial informal flows.,4
+Kurukshetra market lanes,29.9691,76.8783,Theft,Small market petty crime.,2
+Ambala-Haryana transport nodes,30.3782,76.7767,Vehicle theft,Transit vehicle theft rings.,4
+Ropar / Rupnagar markets,30.9658,76.533,Theft,Regional market incidents.,4
+Chandrapur (Maharashtra) market,19.9664,79.3,Illegal timber/Smuggling,Forest product smuggling reports.,4
+Nagpur Sitabuldi market lanes,21.15,79.092,Pickpocketing,Busy market petty crime.,2
+Gondia transit hubs,21.4522,80.196,Smuggling,Border transit informal flows.,5
+Bhusawal rail & market zones,20.7356,75.233,Theft,Station area petty crime.,3
+Akola market nodes,20.7037,76.9984,Theft,Local market incidents.,2
+Amravati market area,20.9333,77.75,Theft,Market petty crime.,4
+Kolhapur central markets,16.705,74.2433,Theft,Local market incidents.,2
+Nanded old city lanes,19.1526,77.321,Theft,Local theft reports.,2
+Bidar bazaar area,17.9133,77.5299,Smuggling,Border informal trade.,1
+Belgaum (Belagavi) markets,15.8497,74.4977,Theft,Regional market petty crime.,3
+Hubli-Dharwad market belts,15.3647,75.124,Theft,Local market petty crime.,2
+Gulbarga old city markets,17.3297,76.8343,Theft,Bazaar petty crime.,4
+Mangalore central market,12.9141,74.856,Theft,Coastal market petty crime.,2
+Udupi temple town market,13.3409,74.7421,Scams,Tourist touts.,5
+Manipal student zones,13.3567,74.7921,Pickpocketing,Student area petty thefts.,4
+Kozhikode SM Street (Calicut),11.2588,75.7804,Theft,Historic market petty crime.,3
+Calicut beach markets,11.25,75.782,Theft,Coastal tourist petty crime.,3
+Kochi Fort Kochi markets,9.9647,76.2423,Pickpocketing,Tourist market petty crime.,1
+Ernakulam Broadway,9.9816,76.2848,Theft,Wholesale markets.,4
+Fort Kochi alleys,9.96,76.242,Scams/Touting,Tourist touts.,5
+Alappuzha market lanes,9.4981,76.3388,Illegal trade,Backwater market informal trade.,2
+Kollam old city markets,8.8932,76.6141,Theft,Local market petty crime.,5
+Thiruvananthapuram Chalai bazaar,8.499,76.9366,Pickpocketing,Busy bazaar with theft reports.,2
+Kazhakkoottam transit nodes,8.7236,76.677,Smuggling,Port/logistics informal flows.,5
+Kozhikode night markets,11.2588,75.7804,Drug deals,Night market incidents reported.,4
+Thrissur Swaraj Round bazaars,10.5234,76.211,Theft,Market petty crime.,5
+Palakkad market lanes,10.7867,76.6548,Theft,Local market petty crime.,2
+Malappuram central markets,11.0727,76.074,Theft,Regional market petty crime.,2
+Kannur old city lanes,11.8745,75.3704,Theft,Local petty crime.,5
+Puducherry market & Goubert Avenue,11.9416,79.8083,Pickpocketing,Tourist area petty crime.,5
+Cuddalore markets,11.7372,79.7651,Theft,Market petty crime.,5
+Tiruchirappalli (Rockfort) markets,10.7905,78.7047,Theft,Local market petty crime.,4
+Madurai Meenakshi Temple periphery,9.9197,78.1198,Pickpocketing,Tourist temple town petty thefts.,4
+Tirunelveli market lanes,8.728,77.708,Theft,Local market incidents.,4
+Thoothukudi harbour zones,8.7642,78.1348,Smuggling,Port informal trade.,2
+Rameswaram markets,9.2876,79.3129,Scams,Tourist touts & scams.,5
+Coonoor / Ooty market lanes,11.4064,76.6951,Pickpocketing,Tourist hill station petty crime.,1
+Coimbatore RS Puram / Town markets,11.0168,76.9558,Theft,Busy market petty crime.,4
+Erode textile market areas,11.341,77.7172,Illegal trade,Textile counterfeit trade.,5
+Salem marketplaces,11.6643,78.146,Theft,Local market petty crime.,1
+Tiruppur garment clusters,11.1084,77.3411,Illegal trade,Garment counterfeit/gray market.,5
+Vellore fort area markets,12.9165,79.1325,Theft,Local market petty crime.,3
+Nellore markets,14.4426,79.9865,Theft,Regional market incidents.,2
+Vijayawada Besant Road markets,16.5062,80.648,Pickpocketing,Busy commercial area.,1
+Guntur markets,16.3067,80.4365,Theft,Local market petty crime.,1
+Tirupati market lanes,13.6288,79.4192,Scams/Temple touting,Temple town scams & touts.,4
+Rajahmundry markets,16.9997,81.7895,Theft,Local market petty crime.,2
+Kakinada markets,16.9369,82.238,Illegal trade,Coastal informal trade.,1
+Visakhapatnam Dwarakanagar markets,17.7244,83.301,Pickpocketing,Busy commercial area.,3
+Anakapalle market belts,17.6833,82.9739,Theft,Local market petty crime.,4
+Tadepalligudem markets,16.8415,81.5056,Theft,Regional market petty crime.,1
+Nandyal market lanes,15.4825,78.4838,Theft,Local market petty crime.,3
+Adoni market,15.6233,77.28,Theft,Local market petty crime.,1
