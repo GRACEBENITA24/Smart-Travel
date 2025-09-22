@@ -41,7 +41,9 @@ def get_location_from_ip():
 
 # ---------------- FUNCTION ----------------
 def crime_aware_route_planner():
-    st.title("🛡 Crime-Aware Route Planner with AI Agent Layer")
+    #st.title("🛡 Crime-Aware Route Planner with AI Agent Layer")
+    st.markdown("<h1 style='text-align:center; color:#2c3e50;'>🛡 Crime-Aware Route Planner</h1>", unsafe_allow_html=True)
+
 
     # Load datasets
     tourist_df = pd.read_csv("landmarks.csv")
