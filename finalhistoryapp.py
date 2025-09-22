@@ -60,7 +60,10 @@ def clip_worker(in_q: Queue, out_q: Queue, model, preprocess, text_embeddings, l
 # ---------------- FUNCTION ----------------
 def clip_landmark_detector():
     #st.title("🗺️ Live CLIP Landmark Detector")
-    st.markdown("Detect landmarks from webcam using CLIP + Streamlit.")
+    #st.markdown("Detect landmarks from webcam using CLIP + Streamlit.")
+    st.markdown("<h1 style='text-align:center; color:#2c3e50;'>🗺️ Live CLIP Landmark Detector</h1>", unsafe_allow_html=True)
+
+
 
     start_button = st.button("Start Webcam")
     if not start_button:
