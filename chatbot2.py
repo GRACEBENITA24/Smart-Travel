@@ -90,7 +90,20 @@ def get_doubt_answer(place, doubt, lang):
 
 # ---------------- MAIN FUNCTION ----------------
 def ai_tour_guide():
-    st.title("🏰 AI Tour Guide (Voice + Multi-language + Q&A)")
+    #st.title("🏰 AI Tour Guide (Voice + Multi-language + Q&A)")
+    #st.title("🏰 AI Tour Guide (Voice + Multi-language + Q&A)")
+    st.markdown("<h1 style='text-align:center; color:#2c3e50;'>🏰 AI Tour Guide (Voice + Multi-language + Q&A)</h1>", unsafe_allow_html=True)
+    # Add CSS to shrink widgets
+    st.markdown("""
+    <style>
+    div[data-baseweb="select"] {
+        max-width: 400px;
+    }
+    div[data-baseweb="input"] {
+        max-width: 400px;
+    }
+    </style>""", unsafe_allow_html=True)
+
     st.write("🎤 Speak or type a place name, get detailed tourist-friendly info, and ask doubts!")
 
     if "last_place" not in st.session_state:
