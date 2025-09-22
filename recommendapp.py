@@ -49,7 +49,7 @@ def travel_assistant_app(csv_file="recommend.csv"):
         st.markdown("</div>", unsafe_allow_html=True)
 
     # ------------------ MAIN ------------------
-    st.set_page_config(page_title="Travel Assistant", layout="wide")
+    #st.set_page_config(page_title="Travel Assistant", layout="wide")
     st.markdown("<h1 style='text-align:center; color:#2c3e50;'>🧳 Travel Assistant – Smart Recommendations</h1>", unsafe_allow_html=True)
 
     # Sidebar
