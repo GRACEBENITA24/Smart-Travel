@@ -14,4 +14,5 @@ wikipedia
 pandas
 requests
 geopy
+deep-translator
 git+https://github.com/openai/CLIP.git
