@@ -3,7 +3,8 @@ import google.generativeai as genai
 import speech_recognition as sr
 from gtts import gTTS
 from langdetect import detect
-from googletrans import Translator
+from deep_translator import GoogleTranslator
+
 import re
 
 # ---------------- CONFIG -----------------
@@ -44,7 +45,6 @@ foreign_languages = {
 
 languages = {**indian_languages, **foreign_languages}
 
-translator = Translator()
 
 # ---------------- UTILITY FUNCTIONS ----------------
 def clean_text_for_audio(text):
@@ -135,7 +135,8 @@ def ai_tour_guide():
 
             # Translate to English if needed for Gemini
             input_lang = detect(spoken_text)
-            place_en = translator.translate(spoken_text, src=input_lang, dest='en').text if input_lang != "en" else spoken_text
+            place_en = GoogleTranslator(source='auto', target='en').translate(spoken_text)
+
             st.session_state.last_place = place_en
 
             explanation = get_place_info(place_en, selected_lang)
@@ -170,7 +171,8 @@ def ai_tour_guide():
                 st.success(f"✅ You asked: {doubt_text}")
 
                 input_lang = detect(doubt_text)
-                doubt_en = translator.translate(doubt_text, src=input_lang, dest='en').text if input_lang != "en" else doubt_text
+                doubt_en = GoogleTranslator(source='auto', target='en').translate(doubt_text)
+
 
                 answer = get_doubt_answer(st.session_state.last_place, doubt_en, selected_lang)
 
@@ -191,7 +193,8 @@ def ai_tour_guide():
     if st.button("Submit Place"):
         if place_text.strip():
             input_lang = detect(place_text)
-            place_en = translator.translate(place_text, src=input_lang, dest='en').text if input_lang != "en" else place_text
+            place_en = GoogleTranslator(source='auto', target='en').translate(place_text)
+
             st.session_state.last_place = place_en
 
             explanation = get_place_info(place_en, selected_lang)
