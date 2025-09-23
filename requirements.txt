@@ -15,4 +15,6 @@ pandas
 requests
 geopy
 deep-translator
+opencv-python-headless
+
 git+https://github.com/openai/CLIP.git
