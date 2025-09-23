@@ -11,7 +11,7 @@ import re
 # st.set_page_config(page_title="AI Tour Guide", layout="wide")
 
 # Load Gemini API key from secrets.toml
-GOOGLE_API_KEY = st.secrets.get("GOOGLE_API_KEY", "")
+GOOGLE_API_KEY = "AIzaSyDjmgfJZIePzZNPm8z2seSI-R-ihH6liro"
 if not GOOGLE_API_KEY:
     st.error("⚠ GOOGLE_API_KEY not found in secrets.toml")
 genai.configure(api_key=GOOGLE_API_KEY)
