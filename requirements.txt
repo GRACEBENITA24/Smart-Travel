@@ -1,0 +1,16 @@
+streamlit
+google-generativeai
+SpeechRecognition
+gTTS
+langdetect
+googletrans==4.0.0-rc1
+torch
+ftfy
+regex
+tqdm
+opencv-python
+Pillow
+wikipedia
+pandas
+requests
+geopy
