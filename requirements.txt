@@ -14,3 +14,4 @@ wikipedia
 pandas
 requests
 geopy
+git+https://github.com/openai/CLIP.git
