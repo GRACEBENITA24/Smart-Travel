@@ -8,7 +8,7 @@ torch
 ftfy
 regex
 tqdm
-opencv-python
+
 Pillow
 wikipedia
 pandas
