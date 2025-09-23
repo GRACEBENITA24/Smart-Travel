@@ -1,6 +1,6 @@
 import streamlit as st
 import speech_recognition as sr
-from googletrans import Translator
+from deep_translator import GoogleTranslator
 from gtts import gTTS
 from gtts.lang import tts_langs
 import tempfile
@@ -19,7 +19,7 @@ except ImportError:
 #st.title("🎙 Speech Translator with Auto Language Detection")
 #st.markdown("<h1 style='text-align:center; color:#2c3e50;'>🎙 Speech Translator with Auto Language Detection</h1>", unsafe_allow_html=True)
 
-translator = Translator()
+
 
 # Get available TTS languages and sort by language name
 available_langs = tts_langs()
@@ -95,7 +95,7 @@ def speech_translator():
         original_text = transcribe_audio(audio)
 
         if original_text:
-            translated_text = translate_text(original_text, target_language)
+            translated_text = GoogleTranslator(source='auto', target='en').translate("Bonjour")
             speak_text(translated_text, target_language)
 
 # ---------------- MAIN APP ----------------
