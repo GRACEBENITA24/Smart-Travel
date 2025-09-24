@@ -93,7 +93,7 @@ inject_css()
 
 # ----------------- PAGES -----------------
 if menu_choice == "🏠 Home":
-    set_background("background.jpg")
+    set_background("sky.jpg")
     st.markdown(
         """
         <div class="overlay-container" style="text-align:center; padding-top:15%;">
