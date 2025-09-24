@@ -1,8 +1,8 @@
 import time
 import json
 import textwrap
-from threading import Thread
 from queue import Queue, Empty
+from threading import Thread
 
 import torch
 import clip
@@ -15,7 +15,6 @@ import streamlit as st
 LANDMARKS_JSON = "landmarks.json"   # path to your JSON file
 MODEL_NAME = "ViT-B/32"             # CLIP model
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-THROTTLE_SEC = 2.0                  # seconds between CLIP inferences
 SIMILARITY_THRESHOLD = 22.0         # higher threshold = stricter detection
 FONT = cv2.FONT_HERSHEY_SIMPLEX
 # ----------------------------
@@ -59,19 +58,8 @@ def clip_worker(in_q: Queue, out_q: Queue, model, preprocess, text_embeddings, l
 
 # ---------------- FUNCTION ----------------
 def clip_landmark_detector():
-    #st.title("🗺️ Live CLIP Landmark Detector")
-    #st.markdown("Detect landmarks from webcam using CLIP + Streamlit.")
-    st.markdown("<h1 style='text-align:center; color:#2c3e50;'>🗺️ Live CLIP Landmark Detector</h1>", unsafe_allow_html=True)
-
-
-
-    start_button = st.button("Start Webcam")
-    if not start_button:
-        st.info("👆 Click the button above to start the webcam.")
-        st.stop()
-
-    stframe = st.empty()
-    st.info("📷 Starting webcam... Please wait...")
+    st.markdown("<h1 style='text-align:center; color:#2c3e50;'>🗺️ CLIP Landmark Detector</h1>", unsafe_allow_html=True)
+    st.info("Upload an image of a landmark to detect it.")
 
     # Load landmarks data
     landmark_names, landmark_descs = load_landmarks(LANDMARKS_JSON)
@@ -79,77 +67,46 @@ def clip_landmark_detector():
     # Load CLIP model
     model, preprocess = clip.load(MODEL_NAME, device=DEVICE)
     model.eval()
-
     with torch.no_grad():
         text_tokens = clip.tokenize(landmark_names).to(DEVICE)
         text_embeddings = model.encode_text(text_tokens)
 
+    # Queues and worker
     in_q = Queue(maxsize=1)
     out_q = Queue(maxsize=1)
-
     worker = Thread(target=clip_worker, args=(in_q, out_q, model, preprocess, text_embeddings, landmark_names, DEVICE), daemon=True)
     worker.start()
 
-    cap = cv2.VideoCapture(0)
-    if not cap.isOpened():
-        st.error("❌ Could not open webcam.")
-        return
+    uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
+    if uploaded_file:
+        image = Image.open(uploaded_file)
+        frame = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
+        st.image(image, caption="Uploaded Image", use_column_width=True)
 
-    # Clear waiting message
-    st.empty()
-
-    last_infer_time = 0
-    last_detected = None
-    last_score = 0.0
-    wiki_cache = {}
-    show_wiki = True
-
-    while True:
-        ret, frame = cap.read()
-        if not ret:
-            time.sleep(0.1)
-            continue
-
-        now = time.time()
-        if now - last_infer_time >= THROTTLE_SEC:
-            last_infer_time = now
-            rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            pil_img = Image.fromarray(rgb)
-            try:
-                in_q.put_nowait(pil_img)
-            except:
-                pass
-
+        # Send image to CLIP worker
+        pil_img = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
         try:
-            detected_name, score = out_q.get_nowait()
-            if detected_name is not None:
-                if score >= SIMILARITY_THRESHOLD:
-                    last_detected = detected_name
-                    last_score = score
-                    if show_wiki and detected_name not in wiki_cache:
-                        try:
-                            summary = wikipedia.summary(detected_name, sentences=2)
-                        except Exception:
-                            summary = landmark_descs.get(detected_name, "")
-                        wiki_cache[detected_name] = summary
-                else:
-                    last_detected = None
-                    last_score = score
-        except Empty:
+            in_q.put_nowait(pil_img)
+        except:
             pass
 
-        # Draw overlay
-        if last_detected:
-            header = f"{last_detected}  [{last_score:.1f}]"
-            cv2.putText(frame, header, (10, 50), FONT, 0.7, (0,255,0), 2, cv2.LINE_AA)
-            desc = wiki_cache.get(last_detected, landmark_descs.get(last_detected, ""))
-            if desc:
-                wrapped = wrap_text(desc, width=40)
+        try:
+            detected_name, score = out_q.get(timeout=5)
+            if detected_name and score >= SIMILARITY_THRESHOLD:
+                header = f"{detected_name}  [{score:.1f}]"
+                cv2.putText(frame, header, (10, 50), FONT, 0.7, (0,255,0), 2, cv2.LINE_AA)
+                try:
+                    summary = wikipedia.summary(detected_name, sentences=2)
+                except Exception:
+                    summary = landmark_descs.get(detected_name, "")
+                wrapped = wrap_text(summary, width=40)
                 overlay_multiline_text(frame, wrapped, 10, 90, line_height=22, font_scale=0.55, thickness=1)
-        else:
-            cv2.putText(frame, "No landmark detected", (10, 50), FONT, 0.7, (0,165,255), 2, cv2.LINE_AA)
+            else:
+                cv2.putText(frame, "No landmark detected", (10, 50), FONT, 0.7, (0,165,255), 2, cv2.LINE_AA)
+        except Empty:
+            cv2.putText(frame, "Processing...", (10, 50), FONT, 0.7, (255,255,0), 2, cv2.LINE_AA)
 
-        stframe.image(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB), channels="RGB")
+        st.image(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB), channels="RGB")
 
 # ---------------- MAIN APP ----------------
 if __name__ == "__main__":
